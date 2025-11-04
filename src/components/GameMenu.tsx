@@ -7,42 +7,42 @@ const games = [
   {
     id: "tictactoe",
     name: "Tic Tac Toe",
-    image: "/src/assets/tictactoe.webp",
+    image: "/tictactoe.webp",
   },
   {
     id: "memory",
     name: "Memory Match",
-    image: "/src/assets/memory.webp",
+    image: "/memory.webp",
   },
   {
     id: "snakeladder",
     name: "Snake & Ladder",
-    image: "/src/assets/snakeladder.png",
+    image: "/snakeladder.png",
   },
   {
     id: "rps",
     name: "Rock Paper Scissors",
-    image: "/src/assets/rps.jpg",
+    image: "/rps.jpg",
   },
   {
     id: "whackamole",
     name: "Whack-a-Mole",
-    image: "/src/assets/whackamole.jpg",
+    image: "/whackamole.jpg",
   },
   {
     id: "sudoku",
     name: "Sudoku",
-    image: "/src/assets/sudoku.png", 
+    image: "/sudoku.png", 
   },
   {
     id: "bulletmatch",
     name: "Bullet Maths",
-    image: "/src/assets/bulletmaths.png", 
+    image: "/bulletmaths.png", 
   },
   {
     id: "scuttletable",
     name: "Scuttle Table",
-    image: "/src/assets/scuttletable.jpg", 
+    image: "/scuttletable.jpg", 
   },
 ];
 
