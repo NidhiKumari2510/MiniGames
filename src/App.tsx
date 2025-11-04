@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Gamepad2, Moon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import GameMenu from "./components/GameMenu";
 import TicTacToe from "./games/TicTacToe";
 import MemoryGame from "./games/MemoryGame";
@@ -54,11 +54,12 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <Gamepad2
-                className={`w-8 h-8 ${
-                  darkMode ? "text-purple-400" : "text-purple-600"
-                }`}
+              <img
+                src="/src/assets/logo.png"
+                alt="FunZone Logo"
+                className="w-10 h-10 rounded-full object-cover"
               />
+
               <span
                 className={`text-2xl font-bold ${
                   darkMode ? "text-white" : "text-gray-900"
@@ -122,15 +123,11 @@ export default function App() {
       {/* Footer */}
       <footer
         className={`mt-16 py-6 ${
-          darkMode
-            ? "bg-gray-800 text-gray-300"
-            : "bg-white text-gray-600"
+          darkMode ? "bg-gray-800 text-gray-300" : "bg-white text-gray-600"
         } transition-colors duration-300`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm">
-            © 2025 FunZone. All rights reserved.
-          </p>
+          <p className="text-sm">© 2025 FunZone. All rights reserved.</p>
           <p className="text-xs mt-2">Mini Games Hub - Have Fun!</p>
         </div>
       </footer>
